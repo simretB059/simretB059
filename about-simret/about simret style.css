@@ -1,0 +1,98 @@
+body {
+  background-color: #2b1d14;
+  max-width: 900px;
+}
+h1 {
+  color: rgb(22, 9, 9);
+  font-family: "Knewave", cursive;
+  font-size: 18px;
+  font-weight: 17px;
+  padding: 0;
+  background-color: #a5b9aa;
+  border: 2px black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  position: relative;
+  float: inline-start;
+}
+
+span {
+  font-size: 14.5px;
+  color: rgb(18, 26, 18);
+}
+h1 i {
+  color: black;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 0px 10px 3px;
+  font-size: 23px;
+}
+p {
+  text-align: justify;
+  font-size: 13px;
+  color: #3a030a;
+  font-family: "Knewave", cursive;
+  border: black;
+  padding: 0;
+  border: 2px;
+  font-weight: 90;
+}
+p i {
+  color: rgb(11, 12, 11);
+  font-size: 23px;
+}
+h1:hover {
+  color: #e6d5cd;
+  background-color: #979443;
+  cursor: pointer;
+}
+button {
+  background-color: #593e31;
+  color: white;
+  font-size: 16px;
+  padding: 7px 7px;
+  border: 2px solid black;
+  border-radius: 26px;
+  font-family: "Knewave", cursive;
+  transition: all 200ms ease;
+  boxshadow: rgba(255, 255, 255, 0.8) 0px 0px 10px 3px;
+  margin: 0 600px;
+}
+button:hover {
+  color: white;
+  background-color: #eb1b1b;
+  cursor: pointer;
+}
+.home {
+  border-radius: 4px;
+  box-shadow: rgba(156, 50, 50, 0.8) 0px 0px 10px 3px;
+  color: #239151;
+  display: none;
+  font-size: 15px;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  padding: 10px 0;
+  margin: 12% auto 0;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+.give {
+  margin: 30px 160px;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  padding: 30px 30px;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  border-radius: 30px;
+  border-color: darkgreen;
+  border-style: solid;
+  box-shadow: 5px 5px 5px rgba(23, 29, 6, 0.9);
+  position: right;
+}
+img {
+  box-shadow: rgba(143, 55, 55, 0.8) 0px 0px 10px 3px;
+}
